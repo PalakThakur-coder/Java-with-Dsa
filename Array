@@ -1,0 +1,31 @@
+import java.util.*;
+public class ArrayProgram1 {
+
+    public static void main(String st[]) {
+        Scanner s = new Scanner(System.in);
+        int size = s.nextInt();
+
+        int Number[] = new int[size];
+        // input
+
+        for (int i = 0; i < size; i++) {
+            Number[i] = s.nextInt();
+
+        }
+        // output
+        for (int i = 0; i < size; i++) {
+            System.out.println(Number[i]);
+        }
+    }
+}
+
+//output
+4
+1
+2
+3
+4
+1
+2
+3
+4
